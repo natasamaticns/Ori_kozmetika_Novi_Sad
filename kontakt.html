@@ -31,9 +31,9 @@
 
             <br> <br> <br>
 
-                <form>
+                <form action="https://formspree.io/f/meqppoee" method="POST">
                     <b><label for="ime">Ime i prezime</label></b> <br> 
-                        <input type="text" id="ime" maxlength="50" required> <br> <br>
+                        <input type="text" name="ime_i_prezime" id="ime" maxlength="50" required> <br> <br>
                 
                     <!-- <label for="pol">Unesite pol:</label> <br>
                         <input type="radio" name="pol" id="pol">Muški
@@ -43,10 +43,10 @@
                         <input type="number" id="god" min="18"> <br> <br> <br> -->
                 
                     <b><label for="email">E-mail adresa</label></b> <br> 
-                        <input type="email" id="email" required> <br> <br> <br> <br>
+                        <input type="email" name="email_adresa" id="email" required> <br> <br> <br> <br>
                 
                     <b><label for="poruka">Unesite poruku</label></b> <br> 
-                        <textarea id="poruka" cols="30" rows="10" placeholder="Type here..." 
+                        <textarea name="poruka" id="poruka" cols="30" rows="10" placeholder="Type here..." 
                         maxlength="1500" style="resize: none;" required></textarea> <br> <br> <br>
                 
                     <input type="submit" value="Pošalji">
